@@ -114,6 +114,55 @@ h4: 20px, letter-spacing: 1.5px
 58. General Overwrites
 59. Bootstrap multicolumn grid 
 -------------------------------------------------------------------*/
+/*my style*/
+.logo{
+    opacity: 0.85;
+}
+.main-block{
+    display: flex;
+    margin-top: 140px!important;
+    position: relative;
+    align-items: center;
+    align-content: center;
+}
+.main-img{
+    flex-basis: 50%;
+}
+.img-main{
+    margin-left: 140px;
+    opacity: 0.9;
+}
+
+.ballon-img{
+    position: absolute;
+    left: 450px;
+    top: -85px;
+}
+.ballon-img-text{
+    margin-top: -158px;
+    margin-left: 42px;
+}
+
+
+.main-text{
+    flex-basis: 35%;
+    margin-bottom: 50px;
+    margin-left: -50px;
+
+}
+.main-title{
+    text-align: left;
+    font-weight: 600;
+    text-transform: none;
+    padding-bottom: 40px;
+}
+
+.main-descr{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+}
 
 
 /* ==============================================================
