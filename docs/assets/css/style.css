@@ -11,6 +11,7 @@ Primary use:	Multi Purpose Business Theme
 
 @import "../fonts/css/et-line.css";
 @import "../fonts/css/xlntcode.css";
+@import "../fonts/css/Gotham Pro Bold Italic.css";
 
 /*------------------------------------------------------------------
 # [Color codes]
@@ -115,6 +116,7 @@ h4: 20px, letter-spacing: 1.5px
 59. Bootstrap multicolumn grid 
 -------------------------------------------------------------------*/
 /*my style*/
+
 .logo{
     opacity: 0.85;
 }
@@ -149,19 +151,21 @@ h4: 20px, letter-spacing: 1.5px
     margin-bottom: 50px;
     margin-left: -50px;
 
+
 }
 .main-title{
     text-align: left;
-    font-weight: 600;
     text-transform: none;
-    padding-bottom: 40px;
+    font-family: 'Gotham Pro Bold';
+    font-size: 50px;
 }
 
 .main-descr{
     font-size: 18px;
-    font-weight: 400;
     text-align: left;
     text-transform: none;
+    font-family: 'Gotham Pro Bold';
+    line-height: 1.75;
 }
 
 
@@ -4086,7 +4090,7 @@ a.gmap-btn .fa-angle-down {
     text-align: center;
     text-transform: uppercase;
 }
-.fs-header-captions h1, .fs-header-captions h2, .fs-header-captions h3 {
+.fs-header-captions h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.1;
