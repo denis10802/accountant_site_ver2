@@ -191,7 +191,7 @@ h4: 20px, letter-spacing: 1.5px
         display: none;
     }
     .main-text{
-        padding: 5px;
+        padding: 35px;
         flex-basis: unset;
         margin-left: unset;
         margin-bottom: 270px;
@@ -206,6 +206,9 @@ h4: 20px, letter-spacing: 1.5px
     .main-descr{
         letter-spacing: normal;
         line-height: normal;
+    }
+    .btn-my{
+        margin-right: unset!important;
     }
 
 }
@@ -224,6 +227,13 @@ h4: 20px, letter-spacing: 1.5px
     .main-descr{
         font-size: 15px;
     }
+}
+
+.btn-my{
+    border: 2px solid transparent;
+    font-family: "Gotham Pro Bold";
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 /* ==============================================================
