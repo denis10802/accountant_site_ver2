@@ -130,16 +130,34 @@ h4: 20px, letter-spacing: 1.5px
 .main-img{
     flex-basis: 50%;
 }
+
 .img-main{
-    margin-left: 140px;
+    margin-left: 190px;
     opacity: 0.9;
+    margin-top: 50px;
+}
+@media screen and (max-width: 1400px) {
+    .img-main{
+        margin-left: 140px;
+    }
+
+    .ballon-img{
+        left: 485px!important;
+        top: -60px!important;
+    }
+
+    .main-title{
+        font-size: 47px!important;
+    }
 }
 
 .ballon-img{
     position: absolute;
-    left: 450px;
-    top: -85px;
+    left: 560px;
+    top: -50px;
 }
+
+
 .ballon-img-text{
     margin-top: -158px;
     margin-left: 42px;
@@ -148,16 +166,16 @@ h4: 20px, letter-spacing: 1.5px
 
 .main-text{
     flex-basis: 35%;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     margin-left: -50px;
-
-
 }
+
 .main-title{
     text-align: left;
     text-transform: none;
     font-family: 'Gotham Pro Bold';
     font-size: 50px;
+    color: #333;
 }
 
 .main-descr{
@@ -165,9 +183,39 @@ h4: 20px, letter-spacing: 1.5px
     text-align: left;
     text-transform: none;
     font-family: 'Gotham Pro Bold';
-    line-height: 1.75;
+
 }
 
+@media screen and (max-width: 768px){
+    .main-img{
+        display: none;
+    }
+    .main-text{
+        padding: 5px;
+        flex-basis: unset;
+        margin-left: unset;
+        margin-bottom: 270px;
+    }
+    #section-fs-header{
+        background-image: url(../../img/bgr-02-b.jpg) !important;
+    }
+    .main-title{
+        font-size: 35px!important;
+        letter-spacing: normal;
+    }
+    .main-descr{
+        letter-spacing: normal;
+        line-height: normal;
+    }
+
+}
+
+.main-descr li{
+    line-height: 1.5!important;
+}
+.main-descr li .fa-check:before{
+    margin-right: 10px;
+}
 
 /* ==============================================================
    1. Common Styles
