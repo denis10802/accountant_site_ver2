@@ -238,6 +238,57 @@ h4: 20px, letter-spacing: 1.5px
     margin-top: 30px;
 }
 
+.page-section .marquee-wrapper .marquee-block.marq-1 {
+    animation: marquee 45s infinite linear;
+}
+.page-section .marquee-wrapper .marquee-block.marq-2 {
+    animation: marquee 90s infinite linear;
+}
+.page-section .marquee-wrapper .marquee-block.marq-3 {
+    animation: marquee 60s infinite linear;
+}
+
+.page-section .marquee-wrapper .marquee-block {
+    white-space: nowrap;
+    width: 1920px;
+    transition: 0.3s;
+    padding: 3px 0;
+    color: #adadad;
+
+}
+
+
+.page-section .marquee-wrapper .marquee-block span {
+    padding: 0 10px;
+
+}
+
+@keyframes marquee {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-200%,0);
+    }
+}
+
+.price_section{
+    padding-top: unset!important;
+}
+
+@media screen and (max-width: 767px){
+    .about-text{
+        margin-bottom: unset!important;
+    }
+}
+
+
+
+
+
+
+
+
 /* ==============================================================
    1. Common Styles
    ============================================================== */
@@ -543,7 +594,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 @media screen and (min-width:992px) {
     #box-shadow-bottom {
     background: url(../img/site/box-shadow-bottom.png) center top no-repeat;
-    height: 130px;
+    height: 100px;
     position: relative;
     width: 100%;
     z-index: 1;}
@@ -566,8 +617,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     background: #fff;
 }
 .page-section-top-alt {
-    padding: 130px 0 0;
-    margin-top: -130px;
+    padding: 100px 0 0;
     background: #fff;
 }
 .page-section-top-alt-02 {
@@ -582,6 +632,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     padding: 100px 0;
     margin-top: 0;
     background: #282828;
+    overflow: hidden;
 }
 .page-section-alt {
     padding: 100px 0 0;
@@ -605,7 +656,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .page-section {
     padding: 60px 0;
     margin-top: 0;
-    background: #fff;
+
 }
 .page-section-alt {
     padding: 60px 0 0;
@@ -2523,9 +2574,10 @@ table.cart-table tr th, table.cart-table tr td {
    ============================================================== */
 #section-subscribe {
     margin: 0;
-    padding: 20px 0;
+    padding: 30px 0;
     width: 100%;
-    color: #666;
+    color: #adadad;
+    background-color: #282828;
 }
 #section-subscribe .fa-envelope-o {
     padding-left: 8px;
