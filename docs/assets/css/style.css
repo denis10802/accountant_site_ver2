@@ -196,7 +196,6 @@ h4: 20px, letter-spacing: 1.5px
         padding: 35px;
         flex-basis: unset;
         margin-left: unset;
-        margin-bottom: 270px;
     }
     #section-fs-header{
         background-image: url(../../img/bgr-02-b.jpg) !important;
@@ -253,8 +252,7 @@ h4: 20px, letter-spacing: 1.5px
     width: 1920px;
     transition: 0.3s;
     padding: 3px 0;
-    color: #adadad;
-
+    color: #fff;
 }
 
 
@@ -282,8 +280,54 @@ h4: 20px, letter-spacing: 1.5px
     }
 }
 
+.navbar .navbar-nav li a.my-tel{
+    font-size: 20px;
+    border: 2px solid #666;
+    padding: 15px 15px;
+    margin: 8px;
+}
+
+.navbar .navbar-nav li .my-tel:hover{
+    color: #fff!important;
+    background-color: #666!important;
+    border-color: #333;
+}
 
 
+@media screen and (max-width: 991px){
+    .navbar .navbar-nav li .my-tel{
+        display: none;
+    }
+
+    .header-contact{
+        display: flex!important;
+        justify-content: space-between;
+    }
+    .header-contact .my-numb .fa-phone-square{
+        margin-right: 5px;
+        font-size: 18px;
+    }
+    .my-numb{
+        color: black;
+    }
+    .my-instag{
+        color: black;
+    }
+
+    .header-contact .fa-instagram{
+        margin-right: 5px;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+.header-contact{
+    display: none;
+}
+
+.marquee-section{
+    padding: 50px 0!important;
+}
 
 
 
