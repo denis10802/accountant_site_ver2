@@ -37,7 +37,7 @@
 </div>
 
 <!-- Navigation -->
-<nav class="navbar mega-menu navbar-fixed-top nav-height" role="navigation">
+<nav class="navbar mega-menu navbar-fixed-top nav-height navbar_height" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -47,22 +47,32 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-            <a class="navbar-brand page-scroll logo" href="#page-top"><img src="img/logo.png" alt=""></a>
+            <a class="navbar-brand page-scroll logo" href="#page-top"><img class="img_logo" src="img/logo.png" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="">
                <ul class="nav navbar-nav navbar-right">
-                   <li><a class="page-scroll" href="#pricing">Прайс</a></li>
-                   <li><a class="page-scroll" href="#about">О компании</a></li>
-<!--                   <li><a class="page-scroll" href="#services">Services</a></li>                 -->
-<!--                   <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>-->
-<!--                   <li><a class="page-scroll" href="#section-testimonial">Testimonial</a></li>-->
-
-                 <li><a class="page-scroll" href="#section-team">Team</a></li>
-                 <li><a class="page-scroll" href="#contact">Контакты</a></li>
+                    <li class="my-address">г. Стерлитамак </li>
+                    <li class="my-address nav-last"> ул. Мира д.55. 3 этаж. офис: 23</li>
                  <li><a class="my-tel" href="tel:+799999999">+7(999)999-99-99</a></li>
 
+
                </ul><!--/.nav navbar-nav navbar-right-->
+            </div>
+            <div class="collapse navbar-collapse navbar-new"  id="navbar-collapse-1">
+             <ul class="nav navbar-nav navbar-right nav-new">
+                 <li><a class="page-scroll" href="#pricing">Тарифы</a></li>
+                 <li><a class="page-scroll" href="#about">О нас</a></li>
+                 <li><a class="page-scroll" href="#section-testimonial">Бухгалтерские услуги</a></li>
+                 <li><a class="page-scroll" href="#section-testimonial">Приемущества</a></li>
+                 <li><a class="page-scroll" href="#section-accordion-mp">Вопросы и ответы</a></li>
+                 <li><a class="page-scroll" href="#contact">Контакты</a></li>
+                 <li><a class="page-scroll" href="#contact">Контакты</a></li>
+                 <li><a class="page-scroll" href="#contact">Контакты</a></li>
+
+             </ul>
+
+
             </div>
             <!-- /.navbar-collapse -->
             <div class="header-contact">
@@ -119,18 +129,18 @@
                    <li> <i class="fa fa-check"></i>Рассказываем на понятном языке</li>
                    <li> <i class="fa fa-check"></i>Даём гарантии!</li>
                </ul>
-               <a class="btn btn-lg btn-outline-dark page-scroll btn-my" href="#" role="button">Заказать звонок</a>
+               <a class="btn btn-lg  page-scroll btn-my" href="#" role="button">Заказать звонок</a>
            </div>
         </div>
             
             <!--Scroll Down Icon-->
-        <div class="scroll-down-box">
-               <a href="#about" class="page-scroll"><i class="xc icon-down-angle icon-float animated scroll-down-icon"></i></a>
-            </div>
+<!--        <div class="scroll-down-box">-->
+<!--               <a href="#about" class="page-scroll"><i class="xc icon-down-angle icon-float animated scroll-down-icon"></i></a>-->
+<!--            </div>-->
    </section>
 
 <!-- Services Part 1, Tabs -->
-<section class="page-section marquee-section">
+<section class="page-section-bg-black marquee-section">
     <div class="marquee-wrapper font-weight-medium fs-18">
         <div class="marquee-block marq-1">
             <span><span class="red">|</span> Аутсорсинг бухгалтерских услуг</span>
@@ -224,16 +234,17 @@
         <!-- Section Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-title text-center">Choose Your package</h2>
+                <h2 class="section-title text-center title-price">Наши тарифы</h2>
             </div>
         </div> <!-- /.row -->
 
         <!-- Section Description -->
-        <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
-                <p class="intro-text text-center pb-50">Vivamus ac magna augue. Integer blandit in urna vel varius. Proin eu tristique risus. Praesent porttitor condimentum. Class aptent taciti sociosqu ad litora torquent. Save up to $<span class="counter-6 counter"></span> <i class="xc icon-plus"></i> get a free domain.</p>
-            </div>
-        </div> <!-- /.row -->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-10 col-lg-offset-1">-->
+<!--                <p class="intro-text text-center pb-50">Vivamus ac magna augue. Integer blandit in urna vel varius. Proin eu tristique risus. Praesent porttitor condimentum. Class aptent taciti sociosqu ad litora torquent. Save up to $<span class="counter-6 counter"></span> <i class="xc icon-plus"></i> get a free domain.</p>-->
+<!--            </div>-->
+<!--        </div>-->
+        <!-- /.row -->
 
 
         <!-- Panels -->
@@ -241,19 +252,17 @@
             <div class="col-lg-3 col-md-6 col-sm-6 animate-in" data-anim-type="fade-in-up" data-anim-delay="400">
                 <div class="panel panel-alter text-center">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Web Hosting</h3>
+                        <h3 class="panel-title">Оптимальный</h3>
                     </div>
                     <div class="panel-body">
-                        <span class="price"><sup>$</sup>9<sup>95</sup></span>
-                        <span class="period">per month</span>
+                        <span class="price">900<sup>руб</sup></span>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>1</strong> Domain</li>
-                        <li class="list-group-item"><strong>10GB</strong> Disk Space</li>
-                        <li class="list-group-item"><strong>20GB</strong> Bandwidth</li>
-                        <li class="list-group-item"><strong>20</strong> Email Accounts</li>
-                        <li class="list-group-item"><strong>24/7</strong> Support</li>
-                        <li class="list-group-item"><strong>$30</strong> Google Adwords</li>
+                        <li class="list-group-item">Консультация</li>
+                        <li class="list-group-item">Без пошлины</li>
+                        <li class="list-group-item"><strong>1</strong> учредитель</li>
+                        <li class="list-group-item">Помощь в открытии расчетного счета</li>
+
                         <li class="list-group-item"><a href="#" class="btn btn-dark btn-lg btn-width-160">Sign Up</a></li>
                     </ul>
                 </div>
@@ -262,19 +271,18 @@
             <div class="col-lg-3 col-md-6 col-sm-6 animate-in" data-anim-type="fade-in-down" data-anim-delay="400">
                 <div class="panel panel-alter text-center">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Cloud Hosting</h3>
+                        <h3 class="panel-title">Универсальный</h3>
                     </div>
                     <div class="panel-body">
-                        <span class="price"><sup>$</sup>14<sup>95</sup></span>
-                        <span class="period">per month</span>
+                        <span class="price">2000<sup>руб</sup></span>
+
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>5</strong> Domain</li>
-                        <li class="list-group-item"><strong>20GB</strong> Disk Space</li>
-                        <li class="list-group-item"><strong>100GB</strong> Bandwidth</li>
-                        <li class="list-group-item"><strong>Unlimited</strong> Email Accounts</li>
-                        <li class="list-group-item"><strong>24/7</strong> Support</li>
-                        <li class="list-group-item"><strong>$50</strong> Google Adwords</li>
+                        <li class="list-group-item">Консультация</li>
+                        <li class="list-group-item"> Без пошлины</li>
+                        <li class="list-group-item"><strong>1- 5 </strong> учредителей</li>
+                        <li class="list-group-item"> Помощь в открытии расчетного счета</li>
+
                         <li class="list-group-item"><a href="#" class="btn btn-dark btn-lg btn-width-160">Sign Up</a></li>
                     </ul>
                 </div>
@@ -308,19 +316,20 @@
             <div class="col-lg-3 col-md-6 col-sm-6 animate-in" data-anim-type="fade-in-down" data-anim-delay="400">
                 <div class="panel panel-alter text-center">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Dedicated</h3>
+                        <h3 class="panel-title">Под ключ </h3>
                     </div><!--/.panel-heading-->
                     <div class="panel-body">
-                        <span class="price"><sup>$</sup>24<sup>95</sup></span>
+                        <span class="price">6000<sup>руб</sup></span>
                         <span class="period">per month</span>
                     </div>
                     <ul class="list-group">
-                        <li class="list-group-item"><strong>Unlimited</strong> Domains</li>
-                        <li class="list-group-item"><strong>Unlimited</strong> Disk Space</li>
-                        <li class="list-group-item"><strong>Unlimited</strong> Bandwidth</li>
-                        <li class="list-group-item"><strong>Unlimited</strong> Email Accounts</li>
-                        <li class="list-group-item "><strong>10</strong> Dedicated IP</li>
-                        <li class="list-group-item"><strong>$200</strong> Google Adwords</li>
+                        <li class="list-group-item"> Консультация</li>
+                        <li class="list-group-item"> Без пошлины</li>
+                        <li class="list-group-item"><strong>1- 5</strong>  учредителей</li>
+                        <li class="list-group-item"><strong> ЭЦП</strong> в подарок</li>
+                        <li class="list-group-item ">  Печать</li>
+                        <li class="list-group-item"> Карта партнера</li>
+                        <li class="list-group-item"> Помощь в открытии расчетного счета</li>
                         <li class="list-group-item"><a href="#" class="btn btn-dark btn-lg btn-width-160">Sign Up</a></li>
                     </ul>
                 </div>
@@ -1004,6 +1013,76 @@
   </div><!-- /.row -->
  </div><!-- /.container -->
 </section>
+
+
+<!--f.a.q-->
+<section class="page-section pb-135 pb-md-90 pb-sm-65" id="section-accordion-mp">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 pb-55 pb-md-25 pb-sm-20">
+                <h2 class="section-title text-center">Часто задаваемые вопросы</h2>
+<!--                <p class="intro-text">Sed mattis urna orci. Mauris sit amet augue id nisl eleifend finibus eu et arcu. Integer mollis rutrum augue, id vulputate sapien imperdiet ac. Fusce hendrerit, lectus sit amet eleifend placerat, urna sapien pharetra tellus.</p>-->
+            </div>
+        </div>
+
+        <!-- Toggle Accordion -->
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                    <span class="xc icon-minus"></span>
+                                   Как мне получить документы по готовому ООО/ИП?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                Готовые  документы от ФНС  придут вам на эл. Почту. Документы имеют равную юридическую силу как в бумажном варианте.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                    <span class="xc icon-plus"></span>
+                                    Как получить документы в бумажном варианте?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Документы по готовому ИП/ООО находятся в 39 фнс
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                    <span class="xc icon-plus"></span>
+                                    Когда нужно открывать расчетный счет? Сколько расчетных счетов можно открыть?
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Сразу после регистрации вы можете отрыть расчетный счет. Законодательством не ограничено количество  расчетных счетов.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section end -->
+
 
 <!--Footer Begins-->
 <footer>

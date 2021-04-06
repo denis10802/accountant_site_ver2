@@ -121,7 +121,7 @@ h4: 20px, letter-spacing: 1.5px
 
 .logo{
     opacity: 0.85;
-}
+    }
 .main-block{
     display: flex;
     margin-top: 140px!important;
@@ -138,14 +138,21 @@ h4: 20px, letter-spacing: 1.5px
     opacity: 0.9;
     margin-top: 50px;
 }
+
+.navbar-new{
+    text-align: center;
+}
+.nav-new{
+    margin: 9px 9px!important;
+}
 @media screen and (max-width: 1400px) {
     .img-main{
         margin-left: 140px;
     }
 
     .ballon-img{
-        left: 485px!important;
-        top: -60px!important;
+        left: 455px!important;
+        top: -32px!important;
     }
 
     .main-title{
@@ -155,8 +162,8 @@ h4: 20px, letter-spacing: 1.5px
 
 .ballon-img{
     position: absolute;
-    left: 560px;
-    top: -50px;
+    left: 517px;
+    top: -28px;
 }
 
 
@@ -231,36 +238,35 @@ h4: 20px, letter-spacing: 1.5px
 }
 
 .btn-my{
-    border: 2px solid transparent;
+    color: white;
+    border: 2px solid #666;
     font-family: "Gotham Pro Bold";
     margin-right: 150px;
     margin-top: 30px;
+    background-color: #81bed3!important;
 }
 
-.page-section .marquee-wrapper .marquee-block.marq-1 {
+.page-section-bg-black .marquee-wrapper .marquee-block.marq-1 {
     animation: marquee 45s infinite linear;
 }
-.page-section .marquee-wrapper .marquee-block.marq-2 {
+.page-section-bg-black .marquee-wrapper .marquee-block.marq-2 {
     animation: marquee 90s infinite linear;
 }
-.page-section .marquee-wrapper .marquee-block.marq-3 {
+.page-section-bg-black .marquee-wrapper .marquee-block.marq-3 {
     animation: marquee 60s infinite linear;
 }
 
-.page-section .marquee-wrapper .marquee-block {
+.page-section-bg-black .marquee-wrapper .marquee-block {
     white-space: nowrap;
     width: 1920px;
     transition: 0.3s;
     padding: 3px 0;
     color: #fff;
 }
-
-
-.page-section .marquee-wrapper .marquee-block span {
+.page-section-bg-black .marquee-wrapper .marquee-block span {
     padding: 0 10px;
 
 }
-
 @keyframes marquee {
     0%{
         transform: translate(0,0);
@@ -273,6 +279,9 @@ h4: 20px, letter-spacing: 1.5px
 .price_section{
     padding-top: unset!important;
 }
+.title-price{
+    margin-bottom: 40px!important;
+}
 
 @media screen and (max-width: 767px){
     .about-text{
@@ -280,17 +289,28 @@ h4: 20px, letter-spacing: 1.5px
     }
 }
 
+.my-address{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+.nav-last{
+    margin-right: 20px;
+}
+
 .navbar .navbar-nav li a.my-tel{
     font-size: 20px;
     border: 2px solid #666;
     padding: 15px 15px;
-    margin: 8px;
 }
 
 .navbar .navbar-nav li .my-tel:hover{
     color: #fff!important;
-    background-color: #666!important;
+    background-color: #81bed3!important;
     border-color: #333;
+}
+.navbar_height{
+    min-height: 90px!important;
 }
 
 
@@ -302,6 +322,7 @@ h4: 20px, letter-spacing: 1.5px
     .header-contact{
         display: flex!important;
         justify-content: space-between;
+        margin-top: 8px;
     }
     .header-contact .my-numb .fa-phone-square{
         margin-right: 5px;
@@ -328,6 +349,10 @@ h4: 20px, letter-spacing: 1.5px
 .marquee-section{
     padding: 50px 0!important;
 }
+.img_logo{
+   max-width: 125%!important;
+}
+
 
 
 
@@ -672,7 +697,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     padding: 0;
     background: #fff;
 }
-.page-section {
+.page-section-bg-black {
     padding: 100px 0;
     margin-top: 0;
     background: #282828;
@@ -682,6 +707,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     padding: 100px 0 0;
     margin-top: 0;
     background: #fff;
+    ;
 }
 @media screen and (max-width:767px) {
 .page-section-top, .page-section-top-alt {
@@ -4474,7 +4500,7 @@ a.gmap-btn .fa-angle-down {
     background: rgba(255, 255, 255, 1);
 }
 .navbar-nav {
-    margin: 0 -15px;
+    margin: 9px -15px;
 }
 .navbar-brand {
     display: block;
