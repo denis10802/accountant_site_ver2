@@ -340,6 +340,10 @@ h4: 20px, letter-spacing: 1.5px
         font-size: 18px;
         color: black;
     }
+    iframe{
+        width: 300px!important;
+        height: 149px!important;
+    }
 }
 
 .header-contact{
@@ -352,7 +356,10 @@ h4: 20px, letter-spacing: 1.5px
 .img_logo{
    max-width: 125%!important;
 }
-
+iframe{
+    width: 560px;
+    height: 315px;
+}
 
 
 
@@ -436,7 +443,6 @@ h3 {
 }
 h4 {
     font-size: 18px;
-	letter-spacing:1.5px; /* New */
 }
 h5 {
     font-size: 14px;
@@ -706,9 +712,14 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .page-section-alt {
     padding: 100px 0 0;
     margin-top: 0;
-    background: #fff;
-    ;
+    background: #fff
 }
+.page-section{
+    padding: 60px 0;
+    margin-top: 0;
+}
+
+
 @media screen and (max-width:767px) {
 .page-section-top, .page-section-top-alt {
     margin-top: 0;
@@ -726,13 +737,19 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .page-section {
     padding: 60px 0;
     margin-top: 0;
-
 }
+
 .page-section-alt {
     padding: 60px 0 0;
     margin-top: 0;
-    background: #fff;}
+    background: #fff;
+    }
 }
+
+
+
+
+
 @media screen and (min-width:768px) and (max-width:991px) {
 .page-section-top, .page-section-top-alt {
     margin-top: 0;
@@ -755,7 +772,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .page-section-alt {
     padding: 80px 0 0;
     margin-top: 0;
-    background: #fff;}
+    background: #fff;
+    }
+}
+
+.text-subscribe{
+    color: #fff;
 }
 
 .has-border {
@@ -764,6 +786,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 .has-border-top {
     background: url(../img/site/dashed-border.png) top left repeat-x!important;
 }
+
+
+
+
+
+
 /* ==============================================================
    6. Section Title
    ============================================================== */
@@ -771,7 +799,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-top: 20px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #666;
+    color: #000;
 }
 .section-title-npb {
     margin-top: 20px;
@@ -803,7 +831,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin-top: 20px;
     margin-bottom: 0;
     text-transform: uppercase;
-    color: #adadad;
+    color: #000;
 	letter-spacing:1.5px; /* New */
 }
 .section-title-line:after {
