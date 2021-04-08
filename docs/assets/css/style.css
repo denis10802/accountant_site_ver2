@@ -287,6 +287,7 @@ h4: 20px, letter-spacing: 1.5px
 }
 .title-price{
     margin-bottom: 40px!important;
+    text-transform: none!important;
 }
 .price_section .list-group-item .fa-check{
     padding-right: 5px;
@@ -381,8 +382,31 @@ iframe{
 }
 
 
+.btn-default:hover{
+    color: #fff;
+    background-color: #81bed3;
+    border-color: #fff;
+}
 
-
+.form-subscribe{
+    display: flex;
+}
+.input-subscribe{
+    width: 60%;
+}
+@media screen and (max-width: 768px){
+    .form-subscribe{
+        flex-direction: column ;
+        text-align: center;
+    }
+    .input-subscribe{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .btn-default{
+        width: 100%!important;
+    }
+}
 
 
 
@@ -1668,7 +1692,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 22px;
     color: inherit;
     font-weight: 300;
-    text-transform: uppercase;
+
 }
 .panel-alter .panel-heading {
     color: #666;
@@ -1762,7 +1786,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 50px;
     line-height: 50px;
     font-weight: 600;
-    color: #00e8ee;
+    color: #81bed3;
 }
 .price sup {
     top: -20px;
@@ -4812,28 +4836,28 @@ select.sel-list-tpl {
 }
 /* ==============================================================
    49.1 Button Default 
-   ============================================================== */
-.btn-default {
-    color: #666;
-    background-color: #fff;
-    border-color: #ddd;
-}
-.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
-    color: #282828;
-    background-color: #ededed;
-    border-color: #ddd;
-}
-.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
-    background-image: none;
-}
-.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
-    background-color: #fff;
-    border-color: #ddd;
-}
-.btn-default .badge {
-    color: #fff;
-    background-color: #666;
-}
+/*   ============================================================== *!*/
+/*.btn-default {*/
+/*    color: #666;*/
+/*    background-color: #fff;*/
+/*    border-color: #ddd;*/
+/*}*/
+/*.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {*/
+/*    color: #282828;*/
+/*    background-color: #ededed;*/
+/*    border-color: #ddd;*/
+/*}*/
+/*.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {*/
+/*    background-image: none;*/
+/*}*/
+/*.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {*/
+/*    background-color: #fff;*/
+/*    border-color: #ddd;*/
+/*}*/
+/*.btn-default .badge {*/
+/*    color: #fff;*/
+/*    background-color: #666;*/
+/*}*/
 /* ==============================================================
    49.2 Button Primary 
    ============================================================== */
@@ -4935,7 +4959,7 @@ select.sel-list-tpl {
    ============================================================== */
 .btn-dark {
     color: #fff;
-    background-color:#00e8ee;
+    background-color:#81bed3;
     border-color: #333;
 }
 .btn-dark.active, .btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open>.dropdown-toggle.btn-dark {
