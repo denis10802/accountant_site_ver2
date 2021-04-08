@@ -120,7 +120,8 @@ h4: 20px, letter-spacing: 1.5px
 /*my style*/
 
 .logo{
-    opacity: 0.85;
+    margin-left: -50px;
+
     }
 .main-block{
     display: flex;
@@ -142,9 +143,7 @@ h4: 20px, letter-spacing: 1.5px
 .navbar-new{
     text-align: center;
 }
-.nav-new{
-    margin: 9px 9px!important;
-}
+
 @media screen and (max-width: 1400px) {
     .img-main{
         margin-left: 140px;
@@ -218,6 +217,13 @@ h4: 20px, letter-spacing: 1.5px
     .btn-my{
         margin-right: unset!important;
     }
+    .logo{
+        margin-left: 0!important;
+    }
+    .img_logo{
+        max-width: 120%!important;
+    }
+
 
 }
 
@@ -282,6 +288,9 @@ h4: 20px, letter-spacing: 1.5px
 .title-price{
     margin-bottom: 40px!important;
 }
+.price_section .list-group-item .fa-check{
+    padding-right: 5px;
+}
 
 @media screen and (max-width: 767px){
     .about-text{
@@ -292,7 +301,7 @@ h4: 20px, letter-spacing: 1.5px
 .my-address{
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 .nav-last{
     margin-right: 20px;
@@ -344,6 +353,10 @@ h4: 20px, letter-spacing: 1.5px
         width: 300px!important;
         height: 149px!important;
     }
+    .politics{
+        width: 76%;
+        margin: auto;
+    }
 }
 
 .header-contact{
@@ -354,12 +367,14 @@ h4: 20px, letter-spacing: 1.5px
     padding: 50px 0!important;
 }
 .img_logo{
-   max-width: 125%!important;
+   max-width: 140%;
 }
 iframe{
     width: 560px;
     height: 315px;
 }
+
+
 
 
 
@@ -1734,6 +1749,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 50px;
     line-height: 50px;
     font-weight: 600;
+    color: #00b9ee;
 }
 .price sup {
     top: -20px;
@@ -3916,7 +3932,7 @@ a.gmap-btn.btn-hide {
 }
 a.gmap-btn {
     background: 0 0;
-    font-size: 14px;
+    font-size: 12px;
     padding: 10px 0;
     line-height: 1.3333333;
     font-weight: 300;
@@ -4528,7 +4544,7 @@ a.gmap-btn .fa-angle-down {
     background: rgba(255, 255, 255, 1);
 }
 .navbar-nav {
-    margin: 9px -15px;
+    margin: 5px -40px;
 }
 .navbar-brand {
     display: block;
@@ -4544,7 +4560,6 @@ a.gmap-btn .fa-angle-down {
     color: #666;
     font-weight: 400;
     background: 0 0;
-	letter-spacing:1px;
     text-transform: uppercase;
     -webkit-transition: color .3s ease;
     -moz-transition: color .3s ease;
@@ -4907,7 +4922,7 @@ select.sel-list-tpl {
    ============================================================== */
 .btn-dark {
     color: #fff;
-    background-color: #666;
+    background-color:#00b9ee;
     border-color: #333;
 }
 .btn-dark.active, .btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open>.dropdown-toggle.btn-dark {

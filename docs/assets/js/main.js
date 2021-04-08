@@ -1,5 +1,4 @@
-/* XlntCode 2015-06-06  */
-	
+
 $(window).load(function(){
         'use strict';
 
@@ -165,7 +164,8 @@ $(window).load(function(){
 	   Testimonial Slider (jcarousel)
    ========================================================================== */
 	    $('.carousel').carousel({
-	        interval: 5000
+	        interval: 10000,
+			pause: "hover"
 	    });
 	    
 /* ==========================================================================
