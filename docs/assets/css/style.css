@@ -1749,7 +1749,7 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 50px;
     line-height: 50px;
     font-weight: 600;
-    color: #00b9ee;
+    color: #00e8ee;
 }
 .price sup {
     top: -20px;
@@ -4922,7 +4922,7 @@ select.sel-list-tpl {
    ============================================================== */
 .btn-dark {
     color: #fff;
-    background-color:#00b9ee;
+    background-color:#00e8ee;
     border-color: #333;
 }
 .btn-dark.active, .btn-dark:active, .btn-dark:focus, .btn-dark:hover, .open>.dropdown-toggle.btn-dark {
