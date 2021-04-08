@@ -321,6 +321,12 @@ h4: 20px, letter-spacing: 1.5px
 .navbar_height{
     min-height: 90px!important;
 }
+.my-numb:hover{
+    color: black;
+}
+.my-instag:hover{
+    color: black;
+}
 
 
 @media screen and (max-width: 991px){
@@ -1326,9 +1332,16 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     margin: auto;
 }
 .woman-middle-img img {
-    width: 100%
+    width: 100%;
+
 }
+
+
 @media screen and (max-width:480px) {
+
+.woman-middle-img img {
+    margin-bottom: 0;
+}
 .skills-box p {
     margin-bottom: 0;
 }
